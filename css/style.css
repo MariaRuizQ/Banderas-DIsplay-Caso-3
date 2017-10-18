@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+/*Aplico en mi etiqueta div,para caelemento del div, dándole el tamaño a la altura, el ancho y margen*/
+div{
+  height: 100px;
+  width: 200px;
+  padding: 30px;
+  margin: 30px;
+}
+/*Aplico al atributo class="yellow" un color de fondo y le aplico un display, para cambiar los elementos a nivel bloque a línea*/
+.yellow{
+  background-color: rgb(255, 200, 10);
+  display: inline-block;
+}
+/*Aplico al atributo class="black" un color de fondo y un color blanco a la palabra dentro del bloquey le aplico un display, para cambiar los elementos a nivel bloque a línea*/
+.black{
+  background-color: #000;
+  color: white;
+  display: inline-block;
+}
